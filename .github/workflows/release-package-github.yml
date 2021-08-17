@@ -17,7 +17,7 @@
           id: check-mesh-split
           uses: EndBug/version-check@v2.0.1
           with:
-            file-name: ./Unity-Plane-Mesh-Splitter/MeshSplit/package.json
+            file-name: ./Assets/MeshSplit/package.json
             token: ${{ secrets.GITHUB_TOKEN }}
             diff-search: true
         - name: Publish MeshSplit package
@@ -26,6 +26,6 @@
             npm config set //npm.pkg.github.com/:_authToken=\${NODE_AUTH_TOKEN}
             npm publish
           if: steps.check-mesh-split.outputs.changed == 'true'
-          working-directory: ./Unity-Plane-Mesh-Splitter/Assets/MeshSplit
+          working-directory: ./Assets/MeshSplit
           env:
             NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
