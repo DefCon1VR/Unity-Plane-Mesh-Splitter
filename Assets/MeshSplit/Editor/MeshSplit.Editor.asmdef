@@ -1,0 +1,18 @@
+{
+    "name": "MeshSplit.Editor",
+    "rootNamespace": "MeshSplit.Editor",
+    "references": [
+        "GUID:79b3009df5127e341808a777a4cc720e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

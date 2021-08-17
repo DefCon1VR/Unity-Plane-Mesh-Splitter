@@ -1,0 +1,29 @@
+{
+  "name": "com.defcon1.mesh-split",
+  "version": "0.1.0-preview",
+  "displayName": "Mesh Splitter",
+  "description": "Runtime and Editor utilities to automatically split meshes in smaller pieces",
+  "unity": "2020.3",
+  "unityRelease": "3f1",
+  "dependencies": {
+  },
+  "keywords": [
+    "Mesh"
+  ],
+  "author": {
+    "name": "Defcon1",
+    "email": "paezguerraalvaro@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Defcon1VR/Unity-Plane-Mesh-Splitter.git",
+    "directory": "com.defcon1.mesh-split"
+  },
+  "samples": [
+    {
+      "displayName": "Simple Scene Sample",
+      "description": "Simple scene showing how to split a single mesh in submeshes",
+      "path": "Samples~/SceneSample"
+    }
+  ]
+}
