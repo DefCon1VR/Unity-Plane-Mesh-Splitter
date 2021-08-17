@@ -1,6 +1,6 @@
 {
   "name": "com.defcon1.mesh-split",
-  "version": "0.1.1-preview",
+  "version": "0.1.2-preview",
   "displayName": "Mesh Splitter",
   "description": "Runtime and Editor utilities to automatically split meshes in smaller pieces",
   "unity": "2020.3",
